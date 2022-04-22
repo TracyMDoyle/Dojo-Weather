@@ -1,0 +1,113 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+.wrapper{
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+
+}
+.nav1{
+    height: 50px;
+    width: 100vw;
+    padding: 20px;
+    display: flex;
+    flex-direction: row;
+    background-color: cornflowerblue;
+    color: white;
+    align-items: center;
+    justify-content: space-between;
+}
+
+ul {
+    width: 45%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+ul > li{
+    list-style: none;
+    flex-direction: row;
+}
+
+.cityweather{
+    cursor: pointer;
+}
+
+.nav2 {
+    height: 50px;
+    width: 100vw;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.righthead {
+    width: 40%;
+    display: flex;
+    justify-content: right;
+    align-items: center;
+}
+
+.weathertable {
+    display: flex;
+    width: 800px;
+    margin: 25px;
+    padding: 20px;
+    justify-content: space-around;
+}
+
+.col-1, .col-2, .col-3, .col-4 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.temps {
+    width: 60px;
+    height: 30px;
+    margin: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.high {
+    color: red;
+}
+
+.low {
+    color: blue;
+}
+
+.cookiealert {
+    position: absolute;
+    margin-top: 125px;
+    display: flex;
+    width: 800px;
+    height: 100px;
+    padding: 5px;
+    background-color: lightgray;
+    border: 3px solid;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.cookiebutton {
+    width: 100px;
+    background-color: cornflowerblue;
+    margin: 5px;
+    padding: 5px 10px;
+}
+
+.big {
+    font-weight: bolder;
+    font-size: 25px;;
+}
